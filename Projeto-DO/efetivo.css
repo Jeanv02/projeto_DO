@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    align-items: first baseline;
+    height: 100vh;
+    background-image: url(Imagens/key7.jpg);
+    background-size: 100%;
+    font-family: "Poppins", sans-serif;
+}
+.logo{
+    justify-content: first baseline;
+    display: flex;
+    height: 100px;
+}

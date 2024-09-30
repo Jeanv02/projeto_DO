@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    height: 100vh;
+    margin-top: 5%;
+    background-image: url(Imagens/key7.jpg);
+    background-size: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.t_menu {
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: 100;
+}
+
+.logo {
+    justify-content: center;
+    height: 200px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 25px;
+}
+
+.grid-item {
+    width: 200px;
+    height: 200px;
+    font-size: 25px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.grid-item:hover {
+    transition: 0.2s;
+    transform: scale(110%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #2b2b2b;
+    background-color: #ffc75f;
+}
+
+.icones {
+    margin-top: 50px;
+    height: 40%;
+}
+
+p,
+a {
+    text-decoration: none;
+    color: rgb(38, 38, 38);
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+}
